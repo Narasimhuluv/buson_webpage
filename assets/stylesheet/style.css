@@ -741,10 +741,9 @@ figcaption{
 }
 /* ------------- */
 .tag{
-	width: 100%;
 	margin-top: 30px;	
 	background-color: rgb(246,249,254);
-	padding: 20px 2px;
+	padding: 20px 25px;
 }
 .clouds{
 	flex-wrap: wrap;
@@ -752,7 +751,7 @@ figcaption{
 	margin-top: 25px;
 }
 .tag .cloud_menu{
-	width: 100px;
+	width: 70px;
 	height: 25px;
 	border: 1px solid rgba(128, 128, 128, 0.247);
 	margin: 5px;
@@ -760,6 +759,7 @@ figcaption{
 	background-color: white;
 	border-radius: 5px;
 	color: grey;
+	font-size: 12px;
 }
 .instagram_feeds{
 	margin-top: 30px;
