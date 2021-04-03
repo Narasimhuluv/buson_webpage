@@ -103,6 +103,8 @@ body{
 	text-align: center;
 }
 .btn_contact{
+	width: 140px;
+	padding: 14px 0px;
 	margin-left: 20px;
 }
 .navigation_agian .nav .btn{
@@ -173,10 +175,12 @@ body{
 }
 .what_we_do .box_border{
 	border: 5px solid tomato;
-	padding: 50px 60px;
-	width: 20%;
+	padding: 60px 40px;
+	/* height: 350px; */
+	width: 24%;
 }
 .what_do_flex{
+	vertical-align: middle;
 	justify-content: space-between;
 }
 .box_border h2, .compl_left h2, .request_call .heading{
