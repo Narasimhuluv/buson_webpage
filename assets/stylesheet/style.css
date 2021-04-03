@@ -337,7 +337,7 @@ body{
 /* ------------REQUEST CALL */
 .request_call{
 	background-color: rgb(1,45,91);
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .request_call .heading{
 	color: white;
@@ -346,6 +346,7 @@ body{
 	width: 30%;
 	/* border: 1px solid red; */
 	height: 250px;
+	margin-top: 150px;
 	
 }
 .request_call .request_right{
@@ -490,7 +491,9 @@ h1{
 	width: 70%;
 	flex-wrap: wrap;
 }
-
+.get_touch_btn{
+	margin-top: 25px;
+}
 .input{
 	width: 350px;
 	border: 1px solid grey;
