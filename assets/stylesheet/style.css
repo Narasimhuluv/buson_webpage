@@ -337,7 +337,7 @@ body{
 /* ------------REQUEST CALL */
 .request_call{
 	background-color: rgb(1,45,91);
-	padding: 50px 0;
+	padding: 10px  0 50px 0;
 }
 .request_call .heading{
 	color: white;
