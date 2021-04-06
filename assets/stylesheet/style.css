@@ -103,6 +103,7 @@ body{
 	color: white !important;
 	text-align: center;
 	margin-left: 15px;
+	cursor: pointer;
 }
 
 .btn_contactnow {
