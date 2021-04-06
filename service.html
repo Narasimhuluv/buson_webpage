@@ -12,15 +12,17 @@
     <header>
         <div class="header">
              <div class="container flex">
-                 <div class="address">
-                    <a><i class="fas fa-map-marker-alt"></i>85/A,17th floor, Kings land, New York</a>
-                    <a><i class="fas fa-envelope"></i>info@consulting.com</a>
-                 </div>
+                 <address class="address">
+                     <a><i class="fas fa-map-marker-alt"></i>85/A,17th floor, Kings land, New York</a>
+                     <a><i class="fas fa-envelope"></i>info@consulting.com</a>
+                 </address>
                  <nav class="navigation_icons">
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-google-plus-g"></i></a>
+                    <ul class="flex">
+                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
                  </nav>
              </div>
         </div>
@@ -28,26 +30,26 @@
         <div class="head_another">
            <div class="container flex">
              <figure>
-                 <img src="assets/media/logo/logo.png" alt="">
+                 <a href="#"><img src="assets/media/logo/logo.png" alt="logo png"></a>
              </figure>
  
              <div class="navigation_again">
                  <nav class="nav">
                      <ul class="flex">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="service.html">SERVICE</a></li>
-                        <li><a href="casestudy.html">CASES</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li><a href="contactus.html">CONTACT</a></li>
-                        <li class="btn btn_contact">CONTACT NOW</li>
+                         <li><a href="index.html">HOME</a></li>
+                         <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="service.html">SERVICE</a></li>
+                         <li><a href="casestudy.html">CASES</a></li>
+                         <li><a href="blog.html">BLOG</a></li>
+                         <li><a href="contactus.html">CONTACT</a></li>
+                         <li class="btn btn_contactnow ">Contact Now</li>
                      </ul>
                  </nav>
              </div>
            </div>
         </div> 
      </header>
-
+ 
      <main>
          <section class="ourservice">
             <h1>Our Services</h1>
@@ -57,28 +59,28 @@
             <h2 class="heading">Our Services</h2>
             <div class="container ">
                <div class="box_width flex">
-                <div class="box">
-                    <i class="fas fa-book"></i>
-                    <h3>Strategic Planning</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis modi iste excepturi ex.</p>
-                </div>
+                    <article class="column">
+                        <i class="fas fa-book"></i>
+                        <h3>Strategic Planning</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis modi iste excepturi ex.</p>
+                    </article>
 
-                <div class="box">
-                    <i class="fas fa-atlas"></i>
-                    <h3>Trades & stocks</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis modi iste excepturi ex.</p>
-                </div>
+                    <article class="column">
+                        <i class="fas fa-atlas"></i>
+                        <h3>Trades & stocks</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis modi iste excepturi ex.</p>
+                    </article>
 
-                <div class="box">
-                    <i class="fab fa-accusoft"></i>
-                    <h3>Audit & Assurance</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis modi iste excepturi ex.</p>
-                </div>
+                    <article class="column">
+                        <i class="fab fa-accusoft"></i>
+                        <h3>Audit & Assurance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis modi iste excepturi ex.</p>
+                    </article>
                </div>
             </div>
 
-            <div class="btn btn_one_more">
-                More Services
+            <div class="btn btn_one_more our">
+                <a href="">More Services</a>
             </div>
         </section>
 
@@ -115,11 +117,10 @@
         </section>
 
         <section class="request_call">
-            <div class="container flex">
+            <div class="container">
                <div class="box_width flex ">
                     <div class="request_left">
-                        <h2 class="heading">Request for Call</h2>
-                        <h2 class="heading">Back</h2>
+                        <h2 class="heading">Request for Call Back</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, aspernatur dolorem eius architecto iusto praesentium vitae incidunt nemo voluptatum porro</p>
                     </div>
 
@@ -127,7 +128,7 @@
                         <div class="input">Name</div>
                         <div class="input">email</div>
                         <div class="input big_input">service</div>
-                        <div class="btn request_btn">send</div>
+                        <div class="btn request_btn"><a href="">send</a></div>
                     </div>
                </div>
             </div>
@@ -137,9 +138,9 @@
 
      <footer>
         <div class="container  align_items">
-            <div class="box_width flex">
+            <div class="box_width flex footer_details">
                 <div class="buson_article">
-                    <img src="assets/media/logo/logo2_footer.png" alt="footer logo image">
+                    <img src="assets/media/logo/logo2_footer.png" alt="footer logo">
                     <p class="footer_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat quae modi facere.</p>
                     <nav class="footer_nav_icons">
                         <a href=""><i class="fab fa-linkedin-in"></i></a>
@@ -150,41 +151,42 @@
                 </div>
     
                 <div class="company">
-                    <p class="footer_heading">Company</p>
+                    <p class="categories">Company</p>
                     <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Cases</li>
-                        <li>Contact Us</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Cases</a></li>
+                        <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
     
                 <div class="services">
-                    <p class="footer_heading">Services</p>
+                    <p class="categories">Services</p>
                     <ul>
-                        <li>Commercial Cleaning</li>
-                        <li>Office Cleaning</li>
-                        <li>Building Cleaning</li>
-                        <li>Floor Cleaning</li>
-                        <li>Apartment Cleaning</li>
+                        <li><a href="">Commercial Cleaning</a></li>
+                        <li><a href="">Office Cleaning</a></li>
+                        <li><a href="">Building Cleaning</a></li>
+                        <li><a href="">Floor Cleaning</a></li>
+                        <li><a href="">Apartment Cleaning</a></li>
                     </ul>
                 </div>
     
-                <div class="get_in_touch">
-                    <p class="footer_heading">Get In Touch</p>
+                <address class="get_in_touch">
+                    <p class="categories">Get In Touch</p>
                     <ul>
-                        <li>152-515-6565</li>
-                        <li>Demimail@gmail.com</li>
-                        <li>New Orleans USA</li>
+                        <li><a href="">152-515-6565</a></li>
+                        <li><a href="">Demimail@gmail.com</a></li>
+                        <li><a href="">New Orleans USA</a></li>
                     </ul>
-                </div>
+                </address>
             </div>
             
         </div>
+        
         <div class="container">
             <hr>
-            <p class="copy_right">Copyright &copy; All rights reserved | This template is mode with <span class="heart_color"><i class="far fa-heart"></i></span> by<span class="heart_color">  Colorlib</span></p>
+            <small class="copy_right">Copyright &copy; All rights reserved | This template is mode with <span class="heart_color"><i class="far fa-heart"></i></span> by<span class="heart_color">  Colorlib</span></small>
         </div>
     </footer>
 </body>
